@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:orientation="vertical"
+    android:background="#353535">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="15dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/tv_batman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iv_logo"
+        android:layout_marginTop="65dp"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:text="Batman Inc."/>
+
+    <TextView
+        android:id="@+id/tv_established"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Established 1939"
+        android:layout_toRightOf="@+id/iv_logo"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/tv_batman"/>
+
+</RelativeLayout>
